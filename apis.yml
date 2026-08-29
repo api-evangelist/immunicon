@@ -30,6 +30,9 @@ description: Immunicon Corporation (NASDAQ IMMC) was a Huntingdon Valley, Pennsy
   2008 and was acquired by Veridex/Johnson & Johnson; the CellSearch platform later passed to Menarini Silicon
   Biosystems. The company was backed by Canaan Partners and publishes no public API or developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/immunicon/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "The company was backed by Canaan Partners and publishes no public API or developer surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
