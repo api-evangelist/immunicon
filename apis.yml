@@ -25,14 +25,16 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/immunicon.
 name: Immunicon
 description: Immunicon Corporation (NASDAQ IMMC) was a Huntingdon Valley, Pennsylvania biotechnology company
   that pioneered immunomagnetic cell-selection technology for isolating and characterizing rare circulating
-  tumor cells (CTCs) from blood. It developed the CellSearch and CellTracks diagnostic platforms, licensed to
-  Veridex, LLC (a Johnson & Johnson company) for oncology use. Immunicon filed for Chapter 11 bankruptcy in
-  2008 and was acquired by Veridex/Johnson & Johnson; the CellSearch platform later passed to Menarini Silicon
-  Biosystems. The company was backed by Canaan Partners and publishes no public API or developer surface.
+  tumor cells (CTCs) from blood. It developed the CellSearch and CellTracks diagnostic platforms, licensed
+  to Veridex, LLC (a Johnson & Johnson company) for oncology use. Immunicon filed for Chapter 11 bankruptcy
+  in 2008 and was acquired by Veridex/Johnson & Johnson; the CellSearch platform later passed to Menarini
+  Silicon Biosystems. The company was backed by Canaan Partners and publishes no public API or developer
+  surface.
 url: https://raw.githubusercontent.com/api-evangelist/immunicon/refs/heads/main/apis.yml
 x-api-posture: no-product-api
 x-api-posture-basis: observed
-x-api-posture-note: "The company was backed by Canaan Partners and publishes no public API or developer surface."
+x-api-posture-note: The company was backed by Canaan Partners and publishes no public API or developer
+  surface.
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -41,7 +43,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-09-15'
 tags:
 - Company
 - Biotechnology
@@ -61,3 +63,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-status: defunct
